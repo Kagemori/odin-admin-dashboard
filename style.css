@@ -1,13 +1,18 @@
+ul {
+    list-style: none;
+}
+
 #container {
     display: grid;
 
     grid-template-columns: 1fr 5fr;
+    grid-template-rows: 16vh repeat(3, 28vh);
 }
 
 #sidebar {
     width: 20vw;
     grid-column: 1 / 2;
-    grid-row: 1 / 4;
+    grid-row: 1 / 5;
 }
 
 #header {
@@ -19,5 +24,5 @@
 #main-body {
     width: 80vw;
     grid-column: 2 / 3;
-    grid-row: 2 / 4;
+    grid-row: 2 / 5;
 }
