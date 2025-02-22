@@ -1,0 +1,23 @@
+#container {
+    display: grid;
+
+    grid-template-columns: 1fr 5fr;
+}
+
+#sidebar {
+    width: 20vw;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+#header {
+    width: 80vw;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+#main-body {
+    width: 80vw;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
