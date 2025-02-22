@@ -63,12 +63,20 @@ li {
 
 #searchbar{
     width: 60vw;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+}
+
+#searchbar img{
+    width: 3.5%;
+    padding-right: 15px;
+    filter: invert(100%)
 }
 
 #searchbar input{
     width: 35vw;
+    height: 2.5vh;
+    border-radius: 10px;
 }
 
 #noti-account {
