@@ -6,7 +6,7 @@ ul {
     display: grid;
 
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 18vh repeat(3, 27.5vh);
+    grid-template-rows: 20vh repeat(3, 27vh);
 }
 
 #sidebar {
@@ -56,7 +56,7 @@ li {
 }
 
 #searchbar, #noti-account, #account-welcome, #project-options {
-    height: 9vh;
+    height: 8vh;
     width: 40vw;
     display: flex;
 }
@@ -109,9 +109,38 @@ li {
 }
 
 .account img {
-    width: 50px;
-    border-radius: 25px;
+    width: 40px;
+    border-radius: 20px;
     margin-right: 20px;
+}
+
+#account-welcome {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+#account-welcome img {
+    width: 70px;
+    border-radius: 35px;
+    margin-right: 20px;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+}
+
+.welcome {
+    font-size: 20px;
+}
+
+.welcome-text .name {
+    font-size: 35px;
 }
 
 #project-options {
