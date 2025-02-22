@@ -6,19 +6,30 @@ ul {
     display: grid;
 
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 16vh repeat(3, 28vh);
+    grid-template-rows: 18vh repeat(3, 27.5vh);
 }
 
 #sidebar {
-    width: 20vw;
+    width: 15vw;
     grid-column: 1 / 2;
     grid-row: 1 / 5;
+
+    background-color: darkgreen;
+    color: white;
+
+    font-size: 25px;
 }
 
 ul li img{
     width: 10%;
     height: auto;
-    padding-right: 10px;
+    padding-right: 15px;
+
+    filter: invert(100%)
+}
+
+#dashboard img{
+    width: 20%;
 }
 
 li {
@@ -29,7 +40,7 @@ li {
 }
 
 #header {
-    width: 80vw;
+    width: 85vw;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 
@@ -37,10 +48,15 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+    background-color: green;
+
+    box-shadow: 0px 5px 10px -5px black;
+    z-index: 10;
 }
 
 #searchbar, #noti-account, #account-welcome, #project-options {
-    height: 8vh;
+    height: 9vh;
     width: 40vw;
     display: flex;
 }
@@ -67,7 +83,9 @@ li {
 }
 
 #main-body {
-    width: 80vw;
+    width: 85vw;
     grid-column: 2 / 3;
     grid-row: 2 / 5;
+
+    background-color: beige;
 }
