@@ -148,6 +148,17 @@ li {
     align-items: center;
 }
 
+#project-options button{
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 5px 50px;
+    color: white;
+    background-color: darkolivegreen;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+
 #main-body {
     width: 85vw;
     grid-column: 2 / 3;
