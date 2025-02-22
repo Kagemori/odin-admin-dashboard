@@ -19,6 +19,38 @@ ul {
     width: 80vw;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchbar, #noti-account, #account-welcome, #project-options {
+    height: 8vh;
+    width: 40vw;
+    display: flex;
+}
+
+#searchbar{
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchbar input{
+    width: 35vw;
+}
+
+#noti-account {
+    width: 20vw;
+    justify-content:center;
+    align-items: center;
+}
+
+#project-options {
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #main-body {
