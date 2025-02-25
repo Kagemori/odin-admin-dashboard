@@ -250,7 +250,7 @@ li {
     width: 18vw;
 
     padding-left: 30px;
-    padding-right: 30px;;
+    padding-right: 30px;
 }
 
 .announcement-card{
@@ -279,3 +279,45 @@ li {
     grid-row: 2 / 3;
 }
 
+#trending-holder {
+    display: grid;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    width: 18vw;
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.trending-card {
+    display: flex;
+    padding: 15px 0px;
+
+    justify-content: left;
+    align-items: center;
+}
+
+.trending-card:first-child{
+    padding-top: 30px;
+}
+
+.trending-card:last-child{
+    padding-bottom: 30px;
+}
+
+.trending-card img{
+    width: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.trending-handle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.trending-name {
+    font-size: 18px;
+}
