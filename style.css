@@ -242,6 +242,38 @@ li {
     grid-row: 1 / 2;
 }
 
+#announcements-holder {
+    display: grid;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    width: 18vw;
+
+    padding-left: 30px;
+    padding-right: 30px;;
+}
+
+.announcement-card{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid gray;
+}
+
+.announcement-card:last-child {
+    border-bottom: none;
+}
+
+.announcement-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.announcement-desc {
+    font-size: 15px;
+    padding: 10px 0px 30px 0px;
+}
+
 #trending {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
